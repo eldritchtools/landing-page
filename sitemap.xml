@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Landing page -->
+  <url>
+    <loc>https://eldritchtools.github.io/</loc>
+  </url>
+
+  <!-- Palworld tools -->
+  <url>
+    <loc>https://eldritchtools.github.io/palworld-base-planner</loc>
+  </url>
+  <url>
+    <loc>https://eldritchtools.github.io/palworld-breeding-calculator</loc>
+  </url>
+
+  <!-- Limbus Company tools -->
+  <url>
+    <loc>https://eldritchtools.github.io/limbus-mirror-dungeon-resource</loc>
+  </url>
+
+  <!-- Experimental tools -->
+  <url>
+    <loc>https://eldritchtools.github.io/production-chains-calculator</loc>
+  </url>
+
+</urlset>
