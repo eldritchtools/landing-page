@@ -1,0 +1,30 @@
+{
+    "main": [
+        {
+            "title": "Limbus Company Mirror Dungeon Resource and Achievements Tracker",
+            "description": "Track your progress while also viewing tips for each achievement, plus references for fusion recipes, theme packs, and other info.",
+            "longDescription": "Limbus Company Mirror Dungeon Resource and Achievements Tracker is a free fan-made tool to help players plan dungeon runs and track achievement progress.\n\nGet tips and details for each achievement, plus references for fusion recipes, theme packs, and other info related to Mirror Dungeons.",
+            "href": "https://eldritchtools.github.io/limbus-mirror-dungeon-resource/"
+        },
+        {
+            "title": "Palworld Breeding Calculator",
+            "description": "Find breeding paths to your target Pal, include the passives you want, and view them as flowcharts, or see all breedable Pals from your collection.",
+            "longDescription": "Palworld Breeding Calculator is a free fan-made online tool that helps players with their breeding plans.\n\nFind out how to breed specific Pals, discover breeding paths based on the Pals and passives you already have, or view all the Pals you can breed from your current collection.\n\nThe goal is to make it easier to plan breeding without guesswork, whether you just need a quick answer or want to map out longer routes.",
+            "href": "https://eldritchtools.github.io/palworld-breeding-calculator/"
+        },
+        {
+            "title": "Palworld Base Planner",
+            "description": "Choose which Pals to place in your base, balance work types, and track resources needed to upgrade your Pals.",
+            "longDescription": "Palworld Base Planner is a free fan-made online tool that helps you decide which Pals to place in your bases. Instead of guesswork, the planner makes it easy to balance work suitability and track the required resources to upgrade your Pals.\n\nOrganize your Pals, spot missing work types, get recommendations for base Pals, and discover options you may have overlooked.\n\nThe Palworld Base Planner saves time and reduces trial and error. Build well-balanced bases and share your plans with friends or other players with the profiles feature.",
+            "href": "https://eldritchtools.github.io/palworld-base-planner/"
+        }
+    ],
+    "experimental": [
+        {
+            "title": "Production Chains Calculator",
+            "description": "A general production calculator for factory and automation games, also works for production and crafting heavy games.",
+            "longDescription": "",
+            "href": "https://eldritchtools.github.io/production-chains-calculator/"
+        }
+    ]
+}
