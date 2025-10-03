@@ -3,20 +3,20 @@
 
   <!-- Landing page -->
   <url>
-    <loc>https://eldritchtools.github.io/</loc>
+    <loc>https://eldritchtools.com/</loc>
   </url>
 
   <!-- Palworld tools -->
   <url>
-    <loc>https://eldritchtools.github.io/palworld-base-planner</loc>
+    <loc>https://palworld-base.eldritchtools.com/</loc>
   </url>
   <url>
-    <loc>https://eldritchtools.github.io/palworld-breeding-calculator</loc>
+    <loc>https://palworld.breeding.eldritchtools.com/</loc>
   </url>
 
   <!-- Limbus Company tools -->
   <url>
-    <loc>https://eldritchtools.github.io/limbus-mirror-dungeon-resource</loc>
+    <loc>https://limbus-md.eldritchtools.com/</loc>
   </url>
 
   <!-- Experimental tools -->
