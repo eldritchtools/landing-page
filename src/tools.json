@@ -1,6 +1,12 @@
 {
     "main": [
         {
+            "title": "Limbus Company Team Building Hub",
+            "description": "View team builds or create your own to share. Look up relevant information on identities and E.G.Os.",
+            "longDescription": "Limbus Company Team Building Hub is a free fan-made tool for players to create, share, and search for team builds.\n\nReferences are also available for players to look up information on identities and E.G.Os.",
+            "href": "https://limbus-teams.eldritchtools.com/"
+        },
+        {
             "title": "Limbus Company Mirror Dungeon Resource and Achievements Tracker",
             "description": "Track your progress while also viewing tips for each achievement, plus references for fusion recipes, theme packs, and other info.",
             "longDescription": "Limbus Company Mirror Dungeon Resource and Achievements Tracker is a free fan-made tool to help players plan dungeon runs and track achievement progress.\n\nGet tips and details for each achievement, plus references for fusion recipes, theme packs, and other info related to Mirror Dungeons.",
