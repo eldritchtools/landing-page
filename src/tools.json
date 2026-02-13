@@ -1,6 +1,12 @@
 {
     "main": [
         {
+            "title": "Endfield Planners",
+            "description": "Tools to help with Arknights: Endfield planning and gameplay.",
+            "longDescription": "Endfield Planners is a free fan-made collection of tools to help players with their gameplay in Arknights: Endfield.",
+            "href": "https://endfield-planners.eldritchtools.com/"
+        },
+        {
             "title": "Limbus Company Team Building Hub",
             "description": "View team builds or create your own to share. Look up relevant information on identities and E.G.Os.",
             "longDescription": "Limbus Company Team Building Hub is a free fan-made tool for players to create, share, and search for team builds.\n\nReferences are also available for players to look up information on identities and E.G.Os.",
