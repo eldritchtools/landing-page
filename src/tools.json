@@ -1,22 +1,16 @@
 {
     "main": [
         {
+            "title": "Limbus Company Tools",
+            "description": "Use a variety of tools made for Limbus Company or build and share team builds. View information on identities, E.G.Os and Mirror Dungeons.",
+            "longDescription": "Limbus Company Tools is a free fan-made website with a variety of tools for players to use. Create and share team builds or Mirror Dungeon plans. Look up useful information on identities, E.G.Os, or Mirror Dungeons.",
+            "href": "https://limbus.eldritchtools.com/"
+        },
+        {
             "title": "Endfield Planners",
             "description": "Tools to help with Arknights: Endfield planning and gameplay.",
             "longDescription": "Endfield Planners is a free fan-made collection of tools to help players with their gameplay in Arknights: Endfield.",
             "href": "https://endfield-planners.eldritchtools.com/"
-        },
-        {
-            "title": "Limbus Company Team Building Hub",
-            "description": "View team builds or create your own to share. Look up relevant information on identities and E.G.Os.",
-            "longDescription": "Limbus Company Team Building Hub is a free fan-made tool for players to create, share, and search for team builds.\n\nReferences are also available for players to look up information on identities and E.G.Os.",
-            "href": "https://limbus-teams.eldritchtools.com/"
-        },
-        {
-            "title": "Limbus Company Mirror Dungeon Resource and Achievements Tracker",
-            "description": "Track your progress while also viewing tips for each achievement, plus references for fusion recipes, theme packs, and other info.",
-            "longDescription": "Limbus Company Mirror Dungeon Resource and Achievements Tracker is a free fan-made tool to help players plan dungeon runs and track achievement progress.\n\nGet tips and details for each achievement, plus references for fusion recipes, theme packs, and other info related to Mirror Dungeons.",
-            "href": "https://limbus-md.eldritchtools.com/"
         },
         {
             "title": "Palworld Breeding Calculator",
@@ -29,6 +23,18 @@
             "description": "Choose which Pals to place in your base, balance work types, and track resources needed to upgrade your Pals.",
             "longDescription": "Palworld Base Planner is a free fan-made online tool that helps you decide which Pals to place in your bases. Instead of guesswork, the planner makes it easy to balance work suitability and track the required resources to upgrade your Pals.\n\nOrganize your Pals, spot missing work types, get recommendations for base Pals, and discover options you may have overlooked.\n\nThe Palworld Base Planner saves time and reduces trial and error. Build well-balanced bases and share your plans with friends or other players with the profiles feature.",
             "href": "https://palworld-base.eldritchtools.com/"
+        },
+        {
+            "title": "Limbus Company Team Building Hub (Merged into Limbus Company Tools)",
+            "description": "View team builds or create your own to share. Look up relevant information on identities and E.G.Os.",
+            "longDescription": "Limbus Company Team Building Hub is a free fan-made tool for players to create, share, and search for team builds.\n\nReferences are also available for players to look up information on identities and E.G.Os.",
+            "href": "https://limbus-teams.eldritchtools.com/"
+        },
+        {
+            "title": "Limbus Company Mirror Dungeon Resource and Achievements Tracker (Merged into Limbus Company Tools)",
+            "description": "Track your progress while also viewing tips for each achievement, plus references for fusion recipes, theme packs, and other info.",
+            "longDescription": "Limbus Company Mirror Dungeon Resource and Achievements Tracker is a free fan-made tool to help players plan dungeon runs and track achievement progress.\n\nGet tips and details for each achievement, plus references for fusion recipes, theme packs, and other info related to Mirror Dungeons.",
+            "href": "https://limbus-md.eldritchtools.com/"
         }
     ],
     "experimental": [
