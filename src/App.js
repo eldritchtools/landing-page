@@ -13,19 +13,29 @@ function App() {
                 <main style={{ display: "flex", flexDirection: "column", gap: "32px", alignItems: "center" }}>
                     <img style={{ borderRadius: "50%", width: "128px", height: "128px" }} src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo"/>
 
-                    <div>A collection of free web tools for various games.</div>
+                    <div>A collection of free web tools for different games. I mostly focus on maintaining Limbus Company Tools but may dabble in some others  when I find the time.</div>
 
                     <div className={styles.cardGrid}>
                         {tools.main.map((tool, index) => <Card key={index} title={tool.title} description={tool.description} longDescription={tool.longDescription} href={tool.href} />)}
                     </div>
 
-                    <details style={{ marginTop: "3rem" }}>
+                    <details style={{ marginTop: "1rem" }}>
                         <summary style={{ textAlign: "center", cursor: "pointer", fontSize: "1.125rem", fontWeight: 600 }}>
                             Experimental Tools
                         </summary>
                         Tools that are mostly functional but may not be complete and are not being actively maintained. They made be picked up again or completely remade sometime in the future.
                         <div className={styles.cardGrid}>
                             {tools.experimental.map((tool, index) => <Card key={index} title={tool.title} description={tool.description} longDescription={tool.longDescription} href={tool.href} experimental={true} />)}
+                        </div>
+                    </details>
+
+                    <details style={{ marginTop: "1rem" }}>
+                        <summary style={{ textAlign: "center", cursor: "pointer", fontSize: "1.125rem", fontWeight: 600 }}>
+                            Discontinued Tools
+                        </summary>
+                        Tools that have been discontinued due to being dropped or incorporated into another tool.
+                        <div className={styles.cardGrid}>
+                            {tools.discontinued.map((tool, index) => <Card key={index} title={tool.title} description={tool.description} longDescription={tool.longDescription} href={tool.href} experimental={true} />)}
                         </div>
                     </details>
 
