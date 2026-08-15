@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { FaGithub, FaYoutube, FaDiscord } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -24,34 +23,19 @@ function GithubIcon() {
     </a>;
 }
 
-function DiscordIcon() {
-    const [url, setUrl] = useState(null);
+async function getDiscordLink() {
+    try {
+        const response = await fetch("https://shared.eldritchtools.com/links.json");
+        const data = await response.json();
+        return data.discord;
+    } catch (e) {
+        console.error("Fetch failed", e);
+        return "#";
+    }
+}
 
-    useEffect(() => {
-        let attempt = 0;
-        const fetchData = async () => {
-            try {
-                const response = await fetch("https://shared.eldritchtools.com/links.json");
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const result = await response.json();
-                setUrl(result.discord);
-            } catch (error) {
-                if (attempt < 5) {
-                    attempt++;
-                    const delay = 1000 * Math.pow(2, attempt - 1);
-                    setTimeout(fetchData, delay);
-                } else {
-                    console.error(error.message);
-                }
-            }
-        };
-
-        fetchData();
-    }, []);
-
-    if (!url) return null;
+async function DiscordIcon() {
+    const url = await getDiscordLink();
     return <a href={url} target="_blank" rel="noopener noreferrer" style={{ ...iconStyle, color: '#5865F2' }} title="Discord" >
         <FaDiscord />
     </a>
@@ -75,7 +59,7 @@ function KoFiButton() {
     </a>
 }
 
-export default function SocialLinks() {
+export default async function SocialLinks() {
     return (
         <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
             <GithubIcon />

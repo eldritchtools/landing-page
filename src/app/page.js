@@ -1,17 +1,15 @@
-import './App.css';
-
 import SocialLinks from "./SocialLinks";
 import Card from "./Card";
 import tools from "./tools.json";
-import { Tooltip } from "react-tooltip";
 import styles from "./components.module.css";
+import TooltipClientWrapper from "./TooltipClientWrapper";
 
-function App() {
+export default async function Page() {
     return (
-        <div className="App">
+        <div style={{textAlign: "center"}}>
             <div style={{ padding: "3.5rem", paddingBottom: "5rem" }}>
                 <main style={{ display: "flex", flexDirection: "column", gap: "32px", alignItems: "center" }}>
-                    <img style={{ borderRadius: "50%", width: "128px", height: "128px" }} src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo"/>
+                    <img style={{ borderRadius: "50%", width: "128px", height: "128px" }} src={`/logo.png`} alt="logo"/>
 
                     <div>A collection of free web tools for different games. I mostly focus on maintaining Limbus Company Tools but may dabble in some others  when I find the time.</div>
 
@@ -45,14 +43,9 @@ function App() {
                         <SocialLinks />
                     </div>
 
-                    <Tooltip
-                        id={"cardTooltip"}
-                        style={{ textAlign: "start", outline: "1px #eee solid", whiteSpace: "pre-wrap", maxWidth: "42rem", backgroundColor: "black", borderRadius: "0.5rem", zIndex: 9999 }}
-                    />
+                    <TooltipClientWrapper />
                 </main>
             </div>
         </div>
     );
 }
-
-export default App;

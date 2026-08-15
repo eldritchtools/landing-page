@@ -11,12 +11,17 @@
     <loc>https://palworld-base.eldritchtools.com/</loc>
   </url>
   <url>
-    <loc>https://palworld.breeding.eldritchtools.com/</loc>
+    <loc>https://palworld-breeding.eldritchtools.com/</loc>
   </url>
 
   <!-- Limbus Company tools -->
   <url>
     <loc>https://limbus.eldritchtools.com/</loc>
+  </url>
+
+  <!-- Endfield tools -->
+  <url>
+    <loc>https://endfield-planners.eldritchtools.com/</loc>
   </url>
 
   <!-- Experimental tools -->
